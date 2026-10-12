@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Information about Nexus Recovery, a personal encrypted-backup utility.">
+  <title>Nexus Recovery</title>
+  <style>
+    :root{color-scheme:light dark;font-family:system-ui,sans-serif;line-height:1.65;background:#f4f7fb;color:#17283c}body{max-width:720px;margin:auto;padding:48px 24px}main{background:white;border:1px solid #d7e1ec;border-radius:16px;padding:32px}h1,h2{line-height:1.2}h1{font-size:2.4rem;margin-top:0}h2{font-size:1.3rem;margin-top:2rem}a{color:#1558a5;text-underline-offset:3px}footer{margin-top:24px;font-size:.9rem;color:#45576b}@media(prefers-color-scheme:dark){:root{background:#111b28;color:#e9f0f9}main{background:#19283a;border-color:#34475e}a{color:#91c7ff}footer{color:#b4c3d5}}@media(max-width:480px){body{padding:24px 16px}main{padding:24px}h1{font-size:2rem}}
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Nexus Recovery</h1>
+    <p>A personal, single-user utility for encrypted backups of selected local work.</p>
+    <h2>What it does</h2>
+    <p>The utility runs on the owner's computer. It uses restic to encrypt selected files and rclone to store the encrypted backup repositories in the owner's Google Drive.</p>
+    <h2>Google Drive access</h2>
+    <p>The owner-controlled connection requests only access to files created or explicitly opened with this app (<code>drive.file</code>). It does not request general access to the owner's entire Drive.</p>
+    <p>This website is informational. It has no sign-in form and cannot browse, upload, download, or restore private backups. The backup utility is not a public backup service.</p>
+    <p><a href="privacy.html">Read the privacy notice</a>.</p>
+  </main>
+  <footer>For non-sensitive questions: <a href="https://github.com/sheetshow/nexus-recovery-info/issues">project issues</a>. Do not post credentials or private files.</footer>
+</body>
+</html>
