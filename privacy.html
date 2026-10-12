@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Privacy notice for the personal Nexus Recovery backup utility.">
+  <title>Privacy notice | Nexus Recovery</title>
+  <style>
+    :root{color-scheme:light dark;font-family:system-ui,sans-serif;line-height:1.65;background:#f4f7fb;color:#17283c}body{max-width:720px;margin:auto;padding:48px 24px}main{background:white;border:1px solid #d7e1ec;border-radius:16px;padding:32px}h1,h2{line-height:1.2}h1{font-size:2rem}h2{font-size:1.3rem;margin-top:2rem}a{color:#1558a5;text-underline-offset:3px}footer{margin-top:24px;font-size:.9rem;color:#45576b}@media(prefers-color-scheme:dark){:root{background:#111b28;color:#e9f0f9}main{background:#19283a;border-color:#34475e}a{color:#91c7ff}footer{color:#b4c3d5}}@media(max-width:480px){body{padding:24px 16px}main{padding:24px}}
+  </style>
+</head>
+<body>
+  <main>
+    <p><a href="index.html">Nexus Recovery</a></p>
+    <h1>Privacy notice</h1>
+    <p>Effective October 12, 2026. This notice describes a personal, single-user backup utility and this informational website.</p>
+    <h2>Local backup data</h2>
+    <p>The owner selects the local files to protect. Backup contents are encrypted locally by restic before transmission to Google Drive. Personal and business backups use separate repositories and passwords. The utility's recovery passwords and Google authorization credentials are excluded from backup contents.</p>
+    <h2>Google account information</h2>
+    <p>The utility uses the authorized account's email address to check that backups go to the intended owner. Google authorization tokens are kept in private local configuration files. The owner-controlled connection requests only <code>drive.file</code> access.</p>
+    <h2>Use, sharing, and retention</h2>
+    <p>Data is used for backup, integrity checks, and recovery. Encrypted repositories are stored in the owner's Google Drive. The utility does not sell data or send backup contents to AI providers. Existing backup snapshots are retained until the owner explicitly removes them; there is no automatic pruning.</p>
+    <h2>Owner control</h2>
+    <p>The owner can disable scheduled backups and revoke the app's access in Google Account settings. Revoking access does not delete existing backups. The owner can manage or delete those files in Google Drive and local storage.</p>
+    <h2>This website</h2>
+    <p>These static pages have no forms, analytics scripts, or app-managed cookies. GitHub Pages hosts the site and may process ordinary request information under <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub's privacy statement</a>. Private backup contents and credentials are not hosted here.</p>
+  </main>
+  <footer>For non-sensitive questions: <a href="https://github.com/sheetshow/nexus-recovery-info/issues">project issues</a>. Do not post credentials or private files.</footer>
+</body>
+</html>
